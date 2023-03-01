@@ -1,0 +1,12 @@
+1. Spatial data science workflow:
+clean data - exploratory data analysis - make model - model relationships & make prediction - make a decision
+
+2. Components of computational tasks:
+Task (to identify problem)- experience (data and model) - performance (examine the model)
+
+3. The main difference between data science and spatial data science:
+spatial autocorrelation - the spatial data are not independent from each other, which violates a lots of assumption in statistical modeling.
+
+4. Spatial Data Science is an interdiscipline (GIS & machine learning & spatial statistics)
+
+
