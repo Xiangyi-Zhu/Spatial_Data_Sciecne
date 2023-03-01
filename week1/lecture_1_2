@@ -13,4 +13,15 @@ spatial autocorrelation - the spatial data are not independent from each other, 
 
 6. spatial clustering == regionalization (with / without an explicit spatial contiguity constraints)
 
-7. 
+7. Spatial data has both spatial and non-spatial properties about entities
+
+8. Two ways of viewing the world:
+discrete object
+continuous field
+
+9. Examples of spatial relationship:
+adjacency:share a common boundary
+connectivity: intersect with each other
+containment: situated inside
+
+10. 
