@@ -9,4 +9,8 @@ spatial autocorrelation - the spatial data are not independent from each other, 
 
 4. Spatial Data Science is an interdiscipline (GIS & machine learning & spatial statistics)
 
+5. spatially explicit model
 
+6. spatial clustering == regionalization (with / without an explicit spatial contiguity constraints)
+
+7. 
