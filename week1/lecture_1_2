@@ -24,4 +24,6 @@ adjacency:share a common boundary
 connectivity: intersect with each other
 containment: situated inside
 
-10. 
+10. Pitfalls of spatial data:
+(1) spatial autocorrelation
+(2) modifiable areal unit problem
