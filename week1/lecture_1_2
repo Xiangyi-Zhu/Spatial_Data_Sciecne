@@ -25,5 +25,5 @@ connectivity: intersect with each other
 containment: situated inside
 
 10. Pitfalls of spatial data:
-(1) spatial autocorrelation: how similar one data point is to other data points around it
+(1) spatial autocorrelation: how similar one data point is to other data points around it (how things are related to each other)
 (2) modifiable areal unit problem
