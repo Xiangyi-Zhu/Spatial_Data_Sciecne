@@ -26,4 +26,12 @@ containment: situated inside
 
 10. Pitfalls of spatial data:
 (1) spatial autocorrelation: how similar one data point is to other data points around it (how things are related to each other)
-(2) modifiable areal unit problem
+(2) modifiable areal unit problem: (aggregation)
+(3) ecological fallacy: same relationship holds true at different levels (aggregation)
+(4) scale: the geospatial scale at which we examine a phenomenon
+(5) Nonuniformity of space and time: space is not uniform
+
+11. Potential of spatial data:
+(1) quantitative variables: distance, adjacency, interaction, neighborhood... 
+
+
