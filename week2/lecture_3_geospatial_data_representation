@@ -1,0 +1,20 @@
+1. data wrangling: represent the dataset as an appropriate spatial dataset and ready for analysis
+missing values, outliers, inconsistancey, different scales, incorrect spatial projection...
+
+2. Some ways to get geospatial data:
+Data cleaning: geocoding (from address to lat & longi info)
+               data representation (vector or raster)   
+               spatial join (have same attribute column / spatial pattern) (e.g., extracting values from raster)
+Data Engineering: statistical transformations
+                  categorial varible
+                  geometry operation (change shape or size) 
+Geoenrichment: associate geometry to an attribute table
+
+
+
+                  
+
+
+
+
+
