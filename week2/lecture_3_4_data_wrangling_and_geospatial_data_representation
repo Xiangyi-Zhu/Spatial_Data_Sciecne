@@ -1,0 +1,35 @@
+1. data wrangling: represent the dataset as an appropriate spatial dataset and ready for analysis
+missing values, outliers, inconsistancey, different scales, incorrect spatial projection...
+
+2. Some ways to get geospatial data:
+Data cleaning: geocoding (from address to lat & longi info)
+               data representation (vector or raster)   
+               spatial join (have same attribute column, then join OR based on spatial pattern) 
+               (e.g., extracting values from raster to vector / extracting values from vector to raster)
+Data Engineering: statistical transformations
+                  categorial varible
+                  geometry operation (change shape or size) 
+Geoenrichment: associate geometry to an attribute table
+
+2. representation of spatio-temperal data: space-time cube
+(1) challenges:
+have 4 dimensions: x, y, t, value
+interplay of relationship in different dimensions is cumbersome
+data itself is not perfect: missing value, inconsistant measurement(irregularly spaced stations/data collected at different time)
+(2) visualization of space-time data
+time-only visualization: 
+-time-series for each location is plotted to inspect patterns (e.g.,line chart)
+-data-clock
+
+space-time visualization:
+-time vs latitude
+-time vs longitude
+
+time-slice representation: visualize data at a give time on 2D
+
+3. spatio-temporal data wrangling:
+fill missing values: data imputation
+-spatial neighbors statistics (time-slice)
+-temperal interpolation (time-series)
+-space-time neighbors statistics (4D: x, y, t, values)
+     
