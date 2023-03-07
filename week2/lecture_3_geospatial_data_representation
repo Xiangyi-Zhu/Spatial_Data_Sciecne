@@ -4,11 +4,14 @@ missing values, outliers, inconsistancey, different scales, incorrect spatial pr
 2. Some ways to get geospatial data:
 Data cleaning: geocoding (from address to lat & longi info)
                data representation (vector or raster)   
-               spatial join (have same attribute column / spatial pattern) (e.g., extracting values from raster)
+               spatial join (have same attribute column, then join OR based on spatial pattern) 
+               (e.g., extracting values from raster to vector / extracting values from vector to raster)
 Data Engineering: statistical transformations
                   categorial varible
                   geometry operation (change shape or size) 
 Geoenrichment: associate geometry to an attribute table
+
+2. 
 
 
 
