@@ -1,0 +1,46 @@
+1. Statistical transformations:
+-standardization: z = (𝑥i − x) / s, where x is mean, s is standard deviation
+-log transformation: z = log(xi): transform a skewed distribution into normal
+-box-cow transformation: transform a skewed distribution into normal
+
+2. Some terms are used interchangeable: spatial estimation / spatial interpolation /
+/ spatial prediction / spatial statistical modelling / griding in some GIS applications
+the process of using known values to estimate values at other locations
+
+3. nuance between spatial interpolation & spatial prediction
+spatial interpolation: using single variable to estimate unknown values (use station data to estimate whole area)
+spatial prediction: using same and other variables to estimate unknown values (use both elevation and station data to estimate unknown data)
+
+4. how things distribute in space:
+spatial heterogeneity (first-order effect aka general trend)
+spatial dependence (second-order effect also known as spatial autocorrelation）
+
+first order and second order, they work together to define the spatial patterns
+
+5. three perspectives to categorize spatial estimation methods:
+(1) Global vs Local: use all known values to estimate unknown values vs use neighbohood to estimate values
+(2) Deterministic vs Stochastic: use pre-defined function produce estimations without error consideration vs use 
+statistical models with assessment of prediction errors
+(3) Exact vs Inexact: predicted values are same as the known values vs predicted values are different from the known value
+
+6. Examples of spatial estimation methods:
+(1) Thiessen Polygen (nearest neighbor):
+-deterministic and local 
+-assign the neareast sample values to the interpolated value
+
+(2) Fixed radius
+-deterministic and local 
+-depends on the search radius
+-based on the average of nearby samples determined by the fixed radius sample size 
+
+(3) Inverse Distance Weighted (IDW)
+-deterministic and local 
+-weight of each sample point is an inverse proportion to the distance, the closer the more weighted
+-zj = sum(zi/dij to the power of n)/sum(1/(dij to the power of n))
+   e.g. when n = 1, distance are 3 4 5; values are 40 60 80:
+   ((40/3) + (60/4) + (80/5)) / ((1/3) + (1/4) +(1/5))
+-local influences are stronger: increase exponent n; Or decrease the sample point
+-a larger number of sample points makes the result a smoother surface
+
+
+     
