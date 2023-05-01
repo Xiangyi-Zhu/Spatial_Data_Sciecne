@@ -21,7 +21,7 @@ continuous field
 
 9. Examples of spatial relationship:
 adjacency:share a common boundary
-connectivity: intersect with each other
+connectivity: connect with each other
 containment: situated inside
 
 10. Pitfalls of spatial data:
