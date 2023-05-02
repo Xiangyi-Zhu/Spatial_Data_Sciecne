@@ -1,5 +1,6 @@
 1. Statistical transformations:
--standardization: z = (𝑥i − x) / s, where x is mean, s is standard deviation
+-standardization: z = (𝑥i − x) / s, where x is mean, s is standard deviation 
+   - compare dataset with different units
 -log transformation: z = log(xi): transform a skewed distribution into normal
 -box-cow transformation: transform a skewed distribution into normal
 
