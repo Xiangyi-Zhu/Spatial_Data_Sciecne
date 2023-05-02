@@ -28,7 +28,7 @@ statistical models with assessment of prediction errors
 -deterministic and local 
 -assign the neareast sample values to the interpolated value
 
-(2) Fixed radius
+(2) Fixed radius:
 -deterministic and local 
 -depends on the search radius
 -based on the average of nearby samples determined by the fixed radius sample size 
