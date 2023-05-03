@@ -34,7 +34,7 @@ statistical models with assessment of prediction errors
 -depends on the search radius
 -based on the average of nearby samples determined by the fixed radius sample size 
 
-(3) Inverse Distance Weighted (IDW)
+(3) -Inverse Distance Weighted (IDW)
 -deterministic and local 
 -weight of each sample point is an inverse proportion to the distance, the closer the more weighted
 -zj = sum(zi/dij to the power of n)/sum(1/(dij to the power of n))
